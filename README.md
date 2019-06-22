@@ -8,7 +8,7 @@ I am using Visual Studio Code which auto generates the Antlr c++ runtime
 specific to this grammar whenever the grammar file changes. More compiling setup
 would be required without this niceity.
 
-## Dependency management/process
+## Dependencies
 The project uses `cmake` to build `make` files with the right dependencies.
 
 `brew install cmake`
@@ -23,3 +23,15 @@ self-contained.
 
 I left the cpp runtime where it was and in the cmake config set a path to that
 runtime.
+
+## Running the application
+
+To rebuild dependencies use cmake:
+
+`cmake . # from the root directory of the project`
+
+To compile the application use make:
+
+`make`
+
+That puts a binary in `bin/calc`
