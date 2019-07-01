@@ -9,6 +9,7 @@ specific to this grammar whenever the grammar file changes. More compiling setup
 would be required without this niceity.
 
 ## Dependencies
+
 The project uses `cmake` to build `make` files with the right dependencies.
 
 `brew install cmake`
@@ -24,11 +25,15 @@ self-contained.
 I left the cpp runtime where it was and in the cmake config set a path to that
 runtime.
 
+Cmake will also install [googletest](https://github.com/google/googletest)
+
 ## Running the application
 
-To rebuild dependencies use cmake:
+Each of these commands are from the root directory of the project.
 
-`cmake . # from the root directory of the project`
+Build dependencies:
+
+`cmake .`
 
 To compile the application use make:
 

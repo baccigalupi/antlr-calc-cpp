@@ -18,7 +18,15 @@ set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
 
-include_directories()
 include_directories("${PROJECT_SOURCE_DIR}/src")
 
 add_executable(calc ${PROJECT_SOURCE_DIR}/src/calc.cpp)
+
+# testing
+enable_testing()
+find_package(GTest REQUIRED)
+
+add_executable(calc_test ${PROJECT_SOURCE_DIR}/src/calc_test.cpp)
+target_link_libraries(calc_test GTest::GTest GTest::Main)
+
+add_test(AllTestsInCalc calc_test)
