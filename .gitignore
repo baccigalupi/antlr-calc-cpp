@@ -1,8 +1,13 @@
 **/*.DS_Store
+.vscode/ipch
+
 .antlr
 antlr4_runtime
+bin/*
 
 CMakeCache.txt
 CMakeFiles/
 Makefile
 cmake_install.cmake
+CTestTestfile.cmake
+calc_test*.cmake
