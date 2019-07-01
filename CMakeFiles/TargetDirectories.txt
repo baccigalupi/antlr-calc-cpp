@@ -1,6 +1,0 @@
-/Users/kane/Projects/free-code-friday/antlr-calc-cpp/CMakeFiles/edit_cache.dir
-/Users/kane/Projects/free-code-friday/antlr-calc-cpp/CMakeFiles/antlr4_runtime.dir
-/Users/kane/Projects/free-code-friday/antlr-calc-cpp/CMakeFiles/calc.dir
-/Users/kane/Projects/free-code-friday/antlr-calc-cpp/CMakeFiles/antlr4_runtime-build_shared.dir
-/Users/kane/Projects/free-code-friday/antlr-calc-cpp/CMakeFiles/rebuild_cache.dir
-/Users/kane/Projects/free-code-friday/antlr-calc-cpp/CMakeFiles/antlr4_runtime-build_static.dir

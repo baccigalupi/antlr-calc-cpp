@@ -1,3 +1,8 @@
 **/*.DS_Store
 .antlr
 antlr4_runtime
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
